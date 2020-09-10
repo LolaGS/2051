@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en" >
 
@@ -20,9 +22,11 @@
   
 <style>
 body{
-  background-color: lightgrey;
+  background-image: url("https://cdn.pixabay.com/photo/2017/06/17/18/35/background-2413081__340.jpg")
 }
-
+ol {
+  background-color:white;
+}
 .correct{
   background:green;
 }
@@ -40,14 +44,22 @@ body{
 </head>
 
 <body translate="no" >
-  <h1>Math Quiz</h1>
-<ol>
-  <li>2 + 2 = <input data-correct="4" /></li>
-  <li>6 / 3 = <input data-correct="2" /></li>
-  <li>What is the square root of 16? = <input data-correct="4"/></li>
-  
-<li>Who is the President = <input data-correct="Trump"/></li>
-</ol>
+  <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&w=1000&q=80" alt="Beach background" width="200"/>
+<img src="https://images-na.ssl-images-amazon.com/images/I/81eG9m1DmAL._AC_SL1500_.jpg" alt="Beach background" width="200"/>
+<img src="https://images.unsplash.com/photo-1468746587034-766ade47c1ac?ixlib=rb-1.2.1&w=1000&q=80" width="200"/>
+<h1>Quiz by Lola</h1>
+<ul>
+  <li><p style="color:orange;">What is the name of Beyonce's oldest daughter? = <input data-correct="Blue Ivy" /></li>
+  <li>What year was the Boston tea party? = <input data-correct="1773" /></li>
+  <li><p style="color:red;">What is the square root of 16? = <input data-correct="4"/></li>
+  <li><p style="color:blue;">how many states are in the US? = <input data-correct="50" /></li>
+  <li><p style="color:purple;">Who sings "call me maybe?" = <input data-correct="Carly Rae Jepsen" /></li>
+  <li><p style="color:blue;">What year is it? = <input data-correct="2020"/></li>
+  <li><p style="color:lightblue;">When did World War 2 end? = <input data-correct="1945"/></li>
+  <li><p style="color:pink;">Who wrote "Romeo and Juliet" = <input data-correct="William Shakespeare"/></li>
+  <li><p style="color:lightgreen;">When is the Presidential election? = <input data-correct="November 3"/></li>
+  <li><p style="color:green;">How many ounces in 1 pound? = <input data-correct="16" /></li>
+</ul>
   
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
   
